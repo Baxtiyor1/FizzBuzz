@@ -1,0 +1,40 @@
+body{
+    font-family: 'Areal', sans-serif;
+    background-color: aqua;
+    color: black;
+}
+form{
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    padding: 5px 0 5px 20px;
+    height: 30px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 3px solid transparent;
+}
+input:hover{
+    border-bottom: 3px solid orangered;
+}
+button{
+    margin: 0 auto;
+    width: 200px;
+    height: 30px;
+    background-color: burlywood;
+    border: none;
+}
+button:hover{
+box-shadow: 2px 2px 2px #000;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
